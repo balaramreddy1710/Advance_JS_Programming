@@ -1,5 +1,5 @@
 function firstFinal(arr, n) {
-  function binarySort(find) {
+  function binarySearch(find) {
     let left = 0,
       right = arr.length - 1,
       res = -1;
@@ -22,8 +22,8 @@ function firstFinal(arr, n) {
     return res;
   }
 
-  let first = binarySort(true);
-  let last = binarySort(false);
+  let first = binarySearch(true);
+  let last = binarySearch(false);
   return [first, last];
 }
 
