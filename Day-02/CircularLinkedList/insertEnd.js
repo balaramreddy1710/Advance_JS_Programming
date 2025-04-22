@@ -19,7 +19,7 @@ class CLL {
     }
 
     let current = this.head;
-    while (current != this.head) {
+    while (current.next != this.head) {
       current = current.next;
     }
 
