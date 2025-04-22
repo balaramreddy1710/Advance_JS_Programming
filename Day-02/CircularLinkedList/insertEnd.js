@@ -28,6 +28,7 @@ class CLL {
   }
 
   print() {
+    if (!this.head) console.log("The list is empty");
     let current = this.head;
     let res = "";
     do {
