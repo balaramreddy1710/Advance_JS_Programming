@@ -5,7 +5,7 @@ function prec(c) {
   else return -1;
 }
 
-function Prefix(s) {
+function Post(s) {
   let st = [];
   let res = "";
 
@@ -35,4 +35,4 @@ function Prefix(s) {
 }
 
 let s = "a+b*c-d";
-console.log(Prefix(s));
+console.log(Post(s));
