@@ -26,11 +26,11 @@ function postOrder(node) {
   console.log(node.val);
 }
 
-let root = new Tree(37);
-root.left = new Tree(12);
-root.right = new Tree(20);
-root.left.left = new Tree(31);
-root.left.right = new Tree(19);
+let root = new Tree(1);
+root.left = new Tree(2);
+root.right = new Tree(3);
+root.left.left = new Tree(4);
+root.left.right = new Tree(5);
 
 console.log("InOrder:");
 inOrder(root);
